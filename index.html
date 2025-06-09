@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Development Masterclass | LearnPro</title>
+    <link rel="stylesheet" href="styles.css">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="logo">
+                <span>LearnPro</span>
+            </div>
+            <nav class="nav">
+                <ul class="nav-menu">
+                    <li><a href="#features">Features</a></li>
+                    <li><a href="#testimonials">Testimonials</a></li>
+                    <li><a href="#instructor">Instructor</a></li>
+                    <li><a href="#pricing">Pricing</a></li>
+                </ul>
+            </nav>
+            <div class="mobile-menu-btn">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </header>
+
+    <!-- Mobile Menu -->
+    <div class="mobile-menu">
+        <ul class="mobile-nav-menu">
+            <li><a href="#features" class="mobile-link">Features</a></li>
+            <li><a href="#testimonials" class="mobile-link">Testimonials</a></li>
+            <li><a href="#instructor" class="mobile-link">Instructor</a></li>
+            <li><a href="#pricing" class="mobile-link">Pricing</a></li>
+        </ul>
+    </div>
+
+    <!-- Hero Section -->
+    <section class="hero-section" id="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="hero-title" data-aos="fade-up">The Complete Web Development Masterclass</h1>
+                <p class="hero-subtitle" data-aos="fade-up" data-aos-delay="100">Master HTML, CSS, JavaScript, React, Node.js and more with hands-on projects and real-world applications. Join 50,000+ students in the most comprehensive web development course available.</p>
+                <div class="hero-cta" data-aos="fade-up" data-aos-delay="200">
+                    <a href="#pricing" class="cta-button">Enroll Now <i class="fas fa-arrow-right"></i></a>
+                    <div class="course-meta">
+                        <div class="meta-item">
+                            <i class="fas fa-clock"></i>
+                            <span>60+ Hours</span>
+                        </div>
+                        <div class="meta-item">
+                            <i class="fas fa-video"></i>
+                            <span>150+ Lessons</span>
+                        </div>
+                        <div class="meta-item">
+                            <i class="fas fa-infinity"></i>
+                            <span>Lifetime Access</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-image" data-aos="fade-left" data-aos-delay="300">
+                <img src="image/1.png" alt="Web Development Course">
+                <div class="rating-badge">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <span>4.8/5 (2,500+ reviews)</span>
+                </div>
+            </div>
+        </div>
+        <div class="wave-divider">
+            <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+                <path d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z" class="shape-fill"></path>
+            </svg>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features-section" id="features">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title" data-aos="fade-up">What You'll Learn</h2>
+                <p class="section-subtitle" data-aos="fade-up" data-aos-delay="100">Comprehensive curriculum designed to take you from beginner to professional</p>
+            </div>
+            <div class="features-grid">
+                <div class="feature-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="feature-icon">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <h3>HTML5 & CSS3 Mastery</h3>
+                    <p>Build the foundation of any website with modern HTML5 and CSS3 techniques, including Flexbox and Grid layouts.</p>
+                </div>
+                <div class="feature-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="feature-icon">
+                        <i class="fab fa-js"></i>
+                    </div>
+                    <h3>JavaScript Fundamentals</h3>
+                    <p>Master JavaScript from basics to advanced concepts like ES6+, asynchronous programming, and DOM manipulation.</p>
+                </div>
+                <div class="feature-card" data-aos="fade-up" data-aos-delay="300">
+                    <div class="feature-icon">
+                        <i class="fab fa-react"></i>
+                    </div>
+                    <h3>React Framework</h3>
+                    <p>Learn to build dynamic user interfaces with React, including hooks, context API, and state management.</p>
+                </div>
+                <div class="feature-card" data-aos="fade-up" data-aos-delay="400">
+                    <div class="feature-icon">
+                        <i class="fab fa-node-js"></i>
+                    </div>
+                    <h3>Backend Development</h3>
+                    <p>Create server-side applications with Node.js, Express, and learn database integration with MongoDB.</p>
+                </div>
+                <div class="feature-card" data-aos="fade-up" data-aos-delay="500">
+                    <div class="feature-icon">
+                        <i class="fas fa-mobile-alt"></i>
+                    </div>
+                    <h3>Responsive Design</h3>
+                    <p>Design websites that look great on all devices using responsive design principles and mobile-first approach.</p>
+                </div>
+                <div class="feature-card" data-aos="fade-up" data-aos-delay="600">
+                    <div class="feature-icon">
+                        <i class="fas fa-rocket"></i>
+                    </div>
+                    <h3>Deployment & DevOps</h3>
+                    <p>Learn to deploy your applications to the web using Git, GitHub, Heroku, and other modern deployment tools.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials-section" id="testimonials">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title" data-aos="fade-up">Student Testimonials</h2>
+                <p class="section-subtitle" data-aos="fade-up" data-aos-delay="100">Hear from our successful graduates who transformed their careers</p>
+            </div>
+            <div class="testimonials-slider" data-aos="fade-up" data-aos-delay="200">
+                <div class="testimonial-card active">
+                    <div class="testimonial-content">
+                        <div class="testimonial-rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <p class="testimonial-text">"This course completely changed my career path. I went from knowing nothing about web development to landing a full-time job as a frontend developer in just 6 months. The projects are practical and the instructor explains complex concepts in an easy-to-understand way."</p>
+                        <div class="testimonial-author">
+                            <img src="image/3.png" alt="Sarah Johnson">
+                            <div class="author-info">
+                                <h4>Sarah Johnson</h4>
+                                <p>Frontend Developer at TechCorp</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="testimonial-content">
+                        <div class="testimonial-rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <p class="testimonial-text">"As someone with no prior programming experience, I was worried this would be too advanced. But the step-by-step approach made it easy to follow along. I'm now freelancing as a web developer and making more than I did at my previous job. Worth every penny!"</p>
+                        <div class="testimonial-author">
+                            <img src="image/4.png" alt="Michael Chen">
+                            <div class="author-info">
+                                <h4>Michael Chen</h4>
+                                <p>Freelance Web Developer</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="testimonial-content">
+                        <div class="testimonial-rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                        <p class="testimonial-text">"I've taken many online courses, but this one stands out for its comprehensive content and hands-on approach. The instructor is engaging and the community support is fantastic. I was able to build a portfolio of projects that impressed potential employers."</p>
+                        <div class="testimonial-author">
+                            <img src="image/5.png" alt="Emily Rodriguez">
+                            <div class="author-info">
+                                <h4>Emily Rodriguez</h4>
+                                <p>Full Stack Developer at StartupX</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="testimonial-controls">
+                <button class="control-btn prev"><i class="fas fa-chevron-left"></i></button>
+                <div class="control-dots">
+                    <span class="dot active" data-index="0"></span>
+                    <span class="dot" data-index="1"></span>
+                    <span class="dot" data-index="2"></span>
+                </div>
+                <button class="control-btn next"><i class="fas fa-chevron-right"></i></button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Instructor Section -->
+    <section class="instructor-section" id="instructor">
+        <div class="container">
+            <div class="instructor-content">
+                <div class="instructor-image" data-aos="fade-right">
+                    <img src="image/2.png" alt="David Miller">
+                </div>
+                <div class="instructor-info" data-aos="fade-left">
+                    <h2 class="section-title">Meet Your Instructor</h2>
+                    <h3 class="instructor-name">David Miller</h3>
+                    <p class="instructor-title">Senior Web Developer & Educator</p>
+                    <p class="instructor-bio">David has over 10 years of experience in web development, having worked with companies like Google, Amazon, and several successful startups. He's passionate about teaching and has helped more than 100,000 students master web development through his courses and workshops.</p>
+                    <p class="instructor-bio">With a background in computer science and a focus on modern web technologies, David brings real-world expertise to every lesson. His teaching style combines theoretical knowledge with practical applications to ensure you're job-ready upon completion.</p>
+                    <div class="instructor-stats">
+                        <div class="stat-item">
+                            <span class="stat-number">10+</span>
+                            <span class="stat-label">Years Experience</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number">100K+</span>
+                            <span class="stat-label">Students</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number">50+</span>
+                            <span class="stat-label">Projects</span>
+                        </div>
+                    </div>
+                    <a href="#" class="instructor-link">Learn more about David <i class="fas fa-arrow-right"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing Section -->
+    <section class="pricing-section" id="pricing">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title" data-aos="fade-up">Choose Your Plan</h2>
+                <p class="section-subtitle" data-aos="fade-up" data-aos-delay="100">Flexible options to fit your learning journey</p>
+            </div>
+            <div class="pricing-cards">
+                <div class="pricing-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="pricing-header">
+                        <h3 class="pricing-title">Free Trial</h3>
+                        <div class="pricing-price">
+                            <span class="price">$0</span>
+                            <span class="period">7 days access</span>
+                        </div>
+                    </div>
+                    <div class="pricing-features">
+                        <ul>
+                            <li><i class="fas fa-check"></i> Access to first 10 lessons</li>
+                            <li><i class="fas fa-check"></i> Basic exercises and quizzes</li>
+                            <li><i class="fas fa-check"></i> Community forum access</li>
+                            <li><i class="fas fa-check"></i> Email support</li>
+                            <li class="disabled"><i class="fas fa-times"></i> Certificate of completion</li>
+                            <li class="disabled"><i class="fas fa-times"></i> Project reviews</li>
+                            <li class="disabled"><i class="fas fa-times"></i> 1-on-1 mentoring sessions</li>
+                        </ul>
+                    </div>
+                    <a href="#" class="pricing-button">Start Free Trial</a>
+                </div>
+                <div class="pricing-card featured" data-aos="fade-up" data-aos-delay="300">
+                    <div class="pricing-badge">Most Popular</div>
+                    <div class="pricing-header">
+                        <h3 class="pricing-title">Full Access</h3>
+                        <div class="pricing-price">
+                            <span class="price">$149</span>
+                            <span class="period">Lifetime access</span>
+                        </div>
+                    </div>
+                    <div class="pricing-features">
+                        <ul>
+                            <li><i class="fas fa-check"></i> Complete course (60+ hours)</li>
+                            <li><i class="fas fa-check"></i> All exercises and quizzes</li>
+                            <li><i class="fas fa-check"></i> Community forum access</li>
+                            <li><i class="fas fa-check"></i> Priority email support</li>
+                            <li><i class="fas fa-check"></i> Certificate of completion</li>
+                            <li><i class="fas fa-check"></i> 5 project reviews</li>
+                            <li><i class="fas fa-check"></i> 2 one-on-one mentoring sessions</li>
+                        </ul>
+                    </div>
+                    <a href="#" class="pricing-button">Enroll Now</a>
+                </div>
+            </div>
+            <div class="guarantee" data-aos="fade-up" data-aos-delay="400">
+                <i class="fas fa-shield-alt"></i>
+                <p>30-Day Money-Back Guarantee. No questions asked.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="faq-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title" data-aos="fade-up">Frequently Asked Questions</h2>
+                <p class="section-subtitle" data-aos="fade-up" data-aos-delay="100">Everything you need to know about the course</p>
+            </div>
+            <div class="faq-container" data-aos="fade-up" data-aos-delay="200">
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>Is this course suitable for beginners?</h3>
+                        <span class="faq-toggle"><i class="fas fa-plus"></i></span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>This course is designed to take you from zero to professional. We start with the very basics and gradually build up to more advanced concepts. No prior programming experience is required.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>How long do I have access to the course?</h3>
+                        <span class="faq-toggle"><i class="fas fa-plus"></i></span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>With the Full Access plan, you get lifetime access to all course materials, including future updates. This means you can learn at your own pace and revisit lessons whenever you need a refresher.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>Will I receive a certificate upon completion?</h3>
+                        <span class="faq-toggle"><i class="fas fa-plus"></i></span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Yes, upon completing the course, you'll receive a certificate that you can add to your resume or LinkedIn profile. Many of our students have used this certificate to demonstrate their skills to potential employers.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>What if I'm not satisfied with the course?</h3>
+                        <span class="faq-toggle"><i class="fas fa-plus"></i></span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>We offer a 30-day money-back guarantee. If you're not completely satisfied with the course within the first 30 days, you can request a full refund, no questions asked.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section">
+        <div class="container">
+            <div class="cta-content" data-aos="fade-up">
+                <h2>Ready to Start Your Web Development Journey?</h2>
+                <p>Join thousands of successful students who have transformed their careers with this comprehensive course.</p>
+                <a href="#pricing" class="cta-button">Enroll Now <i class="fas fa-arrow-right"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer - Redesigned Horizontal Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-center">
+                    <div class="footer-logo">
+                        <span>LearnPro</span>
+                    </div>
+                    <p class="footer-tagline">Empowering your learning journey</p>
+                </div>
+                
+                <div class="footer-links">
+                    <div class="footer-nav">
+                        <a href="#hero">Home</a>
+                        <a href="#features">Features</a>
+                        <a href="#testimonials">Testimonials</a>
+                        <a href="#instructor">Instructor</a>
+                        <a href="#pricing">Pricing</a>
+                        <a href="#">Blog</a>
+                        <a href="#">Support</a>
+                    </div>
+                    
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; <span id="current-year"></span> LearnPro. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <button id="back-to-top" class="back-to-top">
+        <i class="fas fa-chevron-up"></i>
+    </button>
+
+    <script src="script.js"></script>
+</body>
+</html>
